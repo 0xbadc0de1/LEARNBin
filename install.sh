@@ -4,3 +4,4 @@ sh <(curl -sL https://raw.githubusercontent.com/ocaml/opam/master/shell/install.
 opam init --comp=4.05.0              # install the compiler
 eval `opam config env`               # activate opam environment
 opam depext --install bap            # install bap
+echo "eval `opam config env` " >> ~/.bashrc
